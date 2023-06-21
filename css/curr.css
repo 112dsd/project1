@@ -1,0 +1,58 @@
+.container {
+    position: relative;
+    left: 1150px;
+    top: 50px;
+    background-color: #07183d;
+    padding: 10px 24px;
+    border-radius: 15px;
+    width: 490px;
+    box-shadow: 0 5px 15px 0;
+}
+
+h5 {
+    color: white;
+    margin-left: 64px;
+    margin-top: 10px;
+    margin-bottom: 0.5em;
+    font-size: 25px;
+}
+
+select{
+    width: 95%;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background: #14db7e83;
+    outline: none;
+    color: black;
+    margin: 0.2em 0;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: none;
+}
+
+
+input{
+    width: 95%;
+    height: 40px;
+    font-size: 1em;
+    margin: 0.2em 0;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    outline: none;
+    padding: 0 1em;
+}
+
+
+.btn{
+    width: 95%;
+    height: 40px;
+    background: gray;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0.5em 0;
+}

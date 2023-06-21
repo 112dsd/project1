@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reg.css">
+    <script src="./js/reg.js" defer></script>
+    <script defer src="./js/export.js"></script>
+</head>
+<body>
+
+    
+    <!-- Контейнер -->
+    <article class="container">
+
+        <!-- Внутренний блок -->
+        <div class="block">
+
+            <section class="block_item block-item">
+                <h2 class="block-item_title">У вас уже есть аккаунт ?</h2>
+                <button class="block-item_btn signin-btn">Войти</button>
+            </section>
+            <section class="block_item block-item">
+                <h2 class="block-item_title">У вас нет аккаунта ?</h2>
+                <button class="block-item_btn signup-btn">Зарегистрироваться</button>
+            </section>
+
+        </div>
+        <!-- Блок формы -->
+        <div class="form-box">
+
+            <!--Форма входа-->
+            <form form action="index.html"   name="login"  class="form form_signin">
+                <h3 class="form_title">Вход</h3>
+
+                <p>
+                    <input type="text" name="email"   class="form_input" placeholder="email" id="email" >
+                </p>
+                <p>
+                    <input type="password" class="form_input"
+                   placeholder="Пароль"  name="password"  required />
+                </p>
+                <p>
+                    <button button type="submit" class="form_btn">Войти</button>
+                </p>
+            </form>
+
+
+             <!--Форма регистрации-->
+             <form id="register" form action="#"  method="post" name="form"  class="form form_signup">
+                <h3 class="form_title">Регистрация</h3>
+                <p>
+                    <input type="text" name="nickname" id="nickname"  class="form_input" placeholder="Логин" id="name" >
+                </p>
+                <p>
+                    <input type="email" class="form_input" placeholder="Email" name="email" id="email" required />
+                </p>
+                <p>
+                    <input type="password" class="form_input"
+                   placeholder="Пароль"  name="password" id="password" required />
+                </p>
+                <p>
+                    <button type="submit" class="form_btn form_btn_signup">Зарегистрироваться</button>
+                </p>
+            </form>
+        </div>
+    </article>
+    
+
+    
+</body>
+</html>
+
